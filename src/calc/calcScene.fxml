@@ -51,25 +51,40 @@
          <font>
             <Font size="25.0" />
          </font></TextArea>
-      <Button layoutX="14.0" layoutY="346.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="+">
+      <Button fx:id="plus" layoutX="14.0" layoutY="346.0" mnemonicParsing="false" onAction="#plus" prefHeight="40.0" prefWidth="40.0" text="+">
          <font>
             <Font size="19.0" />
          </font></Button>
-      <Button layoutX="74.0" layoutY="346.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="-">
+      <Button fx:id="minus" layoutX="74.0" layoutY="346.0" mnemonicParsing="false" onAction="#minus" prefHeight="40.0" prefWidth="40.0" text="-">
          <font>
             <Font size="19.0" />
          </font></Button>
-      <Button layoutX="137.0" layoutY="346.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="/">
+      <Button fx:id="divide" layoutX="137.0" layoutY="346.0" mnemonicParsing="false" onAction="#divide" prefHeight="40.0" prefWidth="40.0" text="/">
          <font>
             <Font size="19.0" />
          </font></Button>
-      <Button layoutX="197.0" layoutY="346.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="*">
+      <Button fx:id="multiply" layoutX="197.0" layoutY="346.0" mnemonicParsing="false" onAction="#multiply" prefHeight="40.0" prefWidth="40.0" text="*">
          <font>
             <Font size="19.0" />
          </font></Button>
-      <Button layoutX="105.0" layoutY="299.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="=">
+      <Button layoutX="105.0" layoutY="299.0" mnemonicParsing="false" onAction="#equals" prefHeight="40.0" prefWidth="40.0" text="=">
          <font>
             <Font size="19.0" />
          </font></Button>
+      <Button layoutX="157.0" layoutY="252.0" mnemonicParsing="false" onAction="#point" prefHeight="40.0" prefWidth="40.0" text=".">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="197.0" layoutY="299.0" mnemonicParsing="false" onAction="#rParenth" prefHeight="40.0" prefWidth="40.0" text=")">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="299.0" mnemonicParsing="false" onAction="#lParenth" prefHeight="40.0" prefWidth="40.0" text="(">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
